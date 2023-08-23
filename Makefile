@@ -14,6 +14,7 @@ OBJS= $(SRCS:.c=.o)
 BOBJS= $(BSRCS:.c=.o)
 NAME= libft.a
 CFLAGS= -Werror -Wall -Wextra
+CC = gcc
 
 all: ${NAME}
 
