@@ -35,4 +35,4 @@ re: fclean ${NAME}
 bonus: ${OBJS} ${BOBJS}
 	ar -rcs ${NAME} ${BOBJS} ${OBJS}
 
-.PHONY: clean fclean all re bonus
+.PHONY: clean fclean all re
